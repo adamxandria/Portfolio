@@ -1,4 +1,4 @@
-.about-container {
+.skills-container {
     padding: 5% 10%;
     display: flex;
     flex-direction: column;
@@ -8,23 +8,36 @@
         color: white;
     }
 }
-  
-.about-container .about-grid {
+
+.icon-container {
     display: flex;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 10px;
+
+    svg{
+        color: white;
+    }
 }
   
-.about-container .about-grid .about-content{
+.skills-container .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    align-items: start;
+}
+  
+.skills-container .skills-grid .skill {
     align-items: center;
-    text-align: justify;
+    text-align: left;
+    min-height: 350px;
+}
 
-    p {
-        text-align: justify;
-        line-height: 1.8;
-        margin-bottom: 1.5rem;
-    }
-
+.skills-container .skills-grid .skill p{
+  margin:0;
+  padding: 0;
+  line-height: 1.5;
+//    max-width: 90%;
 }
   
 .chip {
@@ -75,11 +88,11 @@
             padding-right: 5%;
         }
     
-        .about-container .about-grid {
+        .skills-container .skills-grid {
             display: initial;
         }
         
-        .about-container .about-grid .about {
+        .skills-container .skills-grid .skill {
             padding-bottom: 5%;
         }
     }

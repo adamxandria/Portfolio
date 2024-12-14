@@ -6,17 +6,25 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/About.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
     "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java", 
     "SQL",
-    "PostgreSQL",
-    "Postman"
+    "C"
+
+
+    // "React",
+    // "TypeScript",
+    // "JavaScript",
+    // "HTML5",
+    // "CSS3",
+    // "SASS",
+    // "Flask",
+    // "Python",
+    // "SQL",
+    // "PostgreSQL",
+    // "Postman"
 ];
 
 const labelsSecond = [
@@ -48,14 +56,14 @@ function About() {
             <h1>About Me</h1>
             <div className="about-grid">
                 <div className="about-content">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <p>Hi! I'm <strong>Fiqri Adam</strong>, currently in my penultimate year pursuing a Bachelor of Engineering (Hons) in Information and Communication Technology 
-                    in Information Security at the Singapore Institute of Technology. I am deeply passionate about combining Machine Learning, Artificial Intelligence, and 
-                    Cybersecurity to tackle modern-day challenges, a field that is at the forefront of technological innovation.
+                    {/* <FontAwesomeIcon icon={faReact} size="3x"/> */}
+                    <p>Hi! I'm <strong>Adam</strong>, a penultimate-year student pursuing a Bachelor of Engineering (Hons) in Information and Communication Technology (Information Security) at the Singapore Institute of Technology. 
+                       I’m passionate about the intersection of Machine Learning, Artificial Intelligence, and Cybersecurity, 
+                       as I believe these fields are shaping the future of technology.
                     </p>
                     
-                    <p>Over the course of my studies, I’ve developed a strong foundation in various domains including Digital Forensics, Security Analytics, 
-                        Network Security, Malware Analysis, and Operations Security. My academic projects have pushed me to explore and apply cutting-edge technologies, 
+                    <p>Over the course of my studies, I’ve developed a strong foundation in various domains including Malware Analysis and Defence, Operation Security and Incident Management, Digital Forensics, Security Analytics, 
+                        Network Security, Secure Software Development, Mobile Security, Web Security, Machine Learning, Software Engineering, Embedded System, and Ethical Hacking. My academic projects have pushed me to explore and apply cutting-edge technologies, 
                         such as designing deepfake detection systems and building anomaly detection models, which align with the current trends in the tech industry.
                     </p>
 
@@ -65,14 +73,8 @@ function About() {
                          When I’m not in front of my computer, you’ll find me gymming, trying out challenges on kaggle or experimenting with Raspberry Pi projects.
                     </p>
 
-                    <p>
-                        Whether it’s collaborating on a group project, automating workflows, or developing AI-enabled solutions, 
-                        I take pride in delivering work that is robust, efficient, and impactful. I believe that the synergy between AI, machine learning, and cybersecurity 
-                        is pivotal for creating safer and smarter systems, and I’m excited to contribute to this growing field.
-                    </p>
-
                     {/* <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Programming languages:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
