@@ -35,7 +35,8 @@ function Contact() {
       };
 
       console.log(templateParams);
-      emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
+      
+      emailjs.send( process.env.serviceID ||'', process.env.templateID || '', templateParams, process.env.API || 'api_key').then(
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
         },
