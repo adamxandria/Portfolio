@@ -42,43 +42,34 @@ function Project() {
             <div className="project">
                 <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={TicketingHuat} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>TicketingHuat</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
+                <p>TicketingHuat is a secure, feature-rich platform I developed for distributing and managing tickets to events such as concerts and conventions. 
+                    To handle high-demand scenarios, it incorporates a virtual queue system and automatic seat assignment, ensuring fair access and real-time updates during peak times. The platform integrates seamlessly with Stripe for secure payment processing, safeguarding user transactions. It also allows authenticated users to transfer tickets within the system, maintaining authenticity and preventing fraud. Administrators benefit from a dedicated dashboard to create, edit, and monitor events and manage user accounts. Emphasizing robust security measures, TicketingHuat includes multi-factor authentication, role-based access control, and secure session management, providing a safe and seamless experience for both users and event organizers. The development process leveraged a robust CI/CD pipeline using Jenkins, automating testing, building, and deployment processes. This ensured consistent quality, with integrated OWASP Dependency Checks and SonarQube scans identifying and resolving vulnerabilities early in the development lifecycle. 
+                    By streamlining deployments and maintaining high standards of security and performance, Jenkins played a pivotal role in the project’s success.</p>
             </div>
             <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={KiddyCCTV} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>KiddyCCTV App</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <p>KiddyCCTV is a comprehensive Android mobile application that I developed using Java and Android Studio. Designed for nursery school environments, the app facilitates seamless communication between principals, teachers, and parents. Key features include real-time updates on children’s activities, 
+                    secure messaging for both one-on-one and group conversations, and user-friendly interfaces tailored to different roles. The app integrates Firebase for real-time database management and secure data storage, ensuring robust performance and data integrity. Additionally, the project incorporated advanced obfuscation techniques using ProGuard and R8 to protect the app from reverse engineering, 
+                    demonstrating proficiency in mobile application security. </p>
             </div>
             <div className="project">
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={RouteSav} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>RouteSav</h2></a>
-                <p>Developed a real-time route optimization tool for urban navigation using Python and PyQt5. Integrated geospatial data from OpenStreetMap with live ERP rates and incident reports via API, enabling users to find the fastest and most cost-effective routes based on live traffic conditions and preferences.</p>
+                <p>RouteSav is a real-time route optimization tool I developed to enhance urban navigation, specifically designed for tourist bus operations in Singapore. Built using Python and PyQt5, the application integrates geospatial data from OpenStreetMap and real-time traffic updates from the LTA Datamall API. It employs advanced algorithms, including Dijkstra’s algorithm, to compute the fastest and most cost-effective routes while accounting for factors like electronic road pricing (ERP) charges, fuel consumption, and traffic incidents. The application features a user-friendly desktop interface that allows seamless route planning and visualizes optimized paths using Plotly. By leveraging data preprocessing, dynamic traffic analysis, and route comparison, 
+                    RouteSav ensures efficient navigation, reducing operational costs and enhancing the travel experience for both operators and users. </p>
             </div>
             <div className="project">
                 <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={NutriForge} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>NutriForge</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
+                <p>NutriForge is a 2D educational game designed to teach children aged 4 to 7 about healthy eating habits in a fun and engaging way. Developed using the Java Programming Language and the LibGDX framework, the game leverages Object-Oriented Programming (OOP) principles to ensure scalability and maintainability. Players navigate the game by collecting healthy food, avoiding unhealthy food and obstacles, and earning points, with dynamic scoring bonuses for special items. The game features a custom-built game engine with reusable components for collision detection, input-output management, and seamless state transitions. Designed with cross-platform compatibility, NutriForge dynamically scales its user interface across various devices, providing an enjoyable experience regardless of screen resolution. By combining interactive gameplay with visually appealing graphics, NutriForge not only 
+                    promotes health awareness among young children but also serves as a foundation for future game development projects using its modular and reusable architecture.</p>
             </div>
             <div className="project">
                 <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={EnterpriseNetwork} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Designed, Defend and Attack an Enterprise Network</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
+                <p>This project focused on designing, defending, and attacking a secure enterprise network for the National Gallery Singapore. The solution involved implementing a robust network topology using Cisco devices, including routers, switches, and firewalls, to create a high-availability and scalable architecture. Key security measures such as TACACS+ for AAA management, port security, ACLs, and dynamic ARP inspection were integrated to enhance network defenses. Additional features like SNMP monitoring, Syslog for centralized logging, and Snort for intrusion detection ensured comprehensive protection against network threats. The implementation also incorporated best practices such as VLAN segmentation, NAT on firewalls, and high-availability configurations through port-channeling. This project highlights the integration of advanced network security protocols to protect critical infrastructure while providing efficient and secure communication channels across the enterprise.</p>
             </div>
-            {/* <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p> */}
-            {/* </div> */}
         </div>
     </div>
     );
