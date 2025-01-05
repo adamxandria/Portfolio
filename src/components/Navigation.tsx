@@ -17,7 +17,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 
 const drawerWidth = 240;
-const navItems = [['About', 'about'], ['Expertise', 'expertise'], ['Projects', 'projects'], ['Contact', 'contact']];
+const navItems = [['About', 'about'], ['Expertise', 'expertise'], ['Projects', 'projects'], ['Contact', 'contact'],['Resume', 'resume']] ;
 
 function Navigation({parentToChild, modeChange}: any) {
 
@@ -47,7 +47,13 @@ function Navigation({parentToChild, modeChange}: any) {
   }, []);
 
   const scrollToSection = (section: string) => {
+    if (section === 'resume'){
+      window.open('/resume.pdf', '_blank');
+      return;
+    }
+
     console.log(section)
+    
     const expertiseElement = document.getElementById(section);
     if (expertiseElement) {
       expertiseElement.scrollIntoView({ behavior: 'smooth' });

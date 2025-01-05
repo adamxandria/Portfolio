@@ -4,25 +4,42 @@
   margin-right: 5px;
 }
 
+// .contact-form {
+//   padding-top: 20px;
+
+//   button {
+//     float: right;
+//     background-color: white;
+//     color: #050f0b;
+//   }
+
+//   button:hover {
+//     background-color: #5000ca;
+//     color: white;
+//   }
+
+//   fieldset {
+//     background-color: white;
+//   }
+// }
+
 .contact-form {
-  padding-top: 20px;
+  input, textarea {
+    color: #000; // Make text black for light mode
+    background-color: white; // Make background white for light mode
 
-  button {
-    float: right;
-    background-color: white;
-    color: #050f0b;
-  }
+    &[data-theme="dark"] {
+      color: #fff; // Make text white for dark mode
+      background-color: #121212; // Make background dark for dark mode
+      border: 2px solid white;
+    }
 
-  button:hover {
-    background-color: #5000ca;
-    color: white;
-  }
-
-  fieldset {
-    all:unset;
-    background-color: white;
+    &:focus {
+      outline: 1px solid black; // Add a purple border when you click or type
+    }
   }
 }
+
 
 label {
   font-size: 1.2rem;
