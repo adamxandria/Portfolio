@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.19b9dcd4.css",
-    "main.js": "/Portfolio/static/js/main.9251354c.js",
+    "main.js": "/Portfolio/static/js/main.0bdc0f62.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/NutriForge.png": "/Portfolio/static/media/NutriForge.a5cc75765f37930ec9c3.png",
     "static/media/ITP.png": "/Portfolio/static/media/ITP.b456df5f5339773a56c5.png",
@@ -13,15 +13,14 @@
     "static/media/bg-light.png": "/Portfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/Portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/NetBot.png": "/Portfolio/static/media/NetBot.fbe38c0bd14a65bec020.png",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.99f70d32af78f900b22a.pdf",
     "static/media/profile.png": "/Portfolio/static/media/profile.fba5dbe59177a235f950.png",
     "index.html": "/Portfolio/index.html",
     "main.19b9dcd4.css.map": "/Portfolio/static/css/main.19b9dcd4.css.map",
-    "main.9251354c.js.map": "/Portfolio/static/js/main.9251354c.js.map",
+    "main.0bdc0f62.js.map": "/Portfolio/static/js/main.0bdc0f62.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19b9dcd4.css",
-    "static/js/main.9251354c.js"
+    "static/js/main.0bdc0f62.js"
   ]
 }
