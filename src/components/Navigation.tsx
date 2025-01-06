@@ -15,12 +15,13 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
-import Resume from '../assets/Resume.pdf';
+// import Resume from '../assets/Resume.pdf';
 
 
 
 const drawerWidth = 240;
-const navItems = [['About', 'about'], ['Expertise', 'expertise'], ['Projects', 'projects'], ['Contact', 'contact'],['Resume', 'resume']] ;
+// const navItems = [['About', 'about'], ['Expertise', 'expertise'], ['Projects', 'projects'], ['Contact', 'contact'],['Resume', 'resume']] ;
+const navItems = [['About', 'about'], ['Expertise', 'expertise'], ['Projects', 'projects'], ['Contact', 'contact']] ;
 
 function Navigation({parentToChild, modeChange}: any) {
 
@@ -35,7 +36,7 @@ function Navigation({parentToChild, modeChange}: any) {
 
   useEffect(() => {
     const handleScroll = () => {
-      const navbar = document.getElementById("navigation");
+      const navbar = document.getElementById("na vigation");
       if (navbar) {
         const scrolled = window.scrollY > navbar.clientHeight;
         setScrolled(scrolled);
@@ -50,11 +51,11 @@ function Navigation({parentToChild, modeChange}: any) {
   }, []);
 
   const scrollToSection = (section: string) => {
-    if (section === 'resume'){
-      console.log('Opening Resume'); // Debugging log
-      window.open(Resume, '_blank');
-      return;
-    }
+    // if (section === 'resume'){
+    //   console.log('Opening Resume'); // Debugging log
+    //   window.open(Resume, '_blank');
+    //   return;
+    // }
 
     console.log(section)
     
